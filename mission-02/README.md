@@ -16,6 +16,6 @@
 
 ## CSS
 
-- 로그인 버튼은 position: absolute에서 top과 left를 이용하여 배치하였습니다.
+- 로그인 버튼은 position: absolute를 이용하여 배치하였습니다.
 - 회원가입과 아이디 비밀번호 찾기는 float를 이용해 배치하였습니다.
 - box-shadow를 통해 그림자를 구현했습니다.

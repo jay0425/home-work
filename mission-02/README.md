@@ -1,6 +1,6 @@
 # 2차 과제
 
-<p align="center"><img src="./2차과제이미지.png" ></p>
+<p align="center"><img src="./2차과제이미지.png" width="400" height="300"></p>
 
 <br/>
 <br/>
@@ -12,7 +12,7 @@
 
 - minlength를 이용하여 비밀번호를 최소 8자리 이상 입력 받게 하였습니다.
 
-<p align="center"><img src="./2차과제이미지2.png"></p>
+<p align="center"><img src="./2차과제이미지2.png" width="400" height="300"></p>
 
 ## CSS
 

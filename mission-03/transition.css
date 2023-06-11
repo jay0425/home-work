@@ -1,0 +1,86 @@
+/* 기본 글자크기 설정 */
+html {
+  font-size: 10px;
+}
+
+/* 공통 사항 */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 1.2rem;
+  background: linear-gradient(180deg, #ccc 0%, #eee 100%);
+
+  width: 19rem;
+  height: 19.6rem;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+}
+/** ------------------------------------------------------------------------------------------------------ */
+/** 헤더 */
+
+header h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #181818;
+  margin: 0.8rem 0;
+}
+
+header span {
+  color: #ed552f;
+  margin-left: 0.5rem;
+}
+
+/** ------------------------------------------------------------------------------------------------------ */
+/** 메인 */
+
+main {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+
+  border: 0.1rem solid #a3a3a3;
+  border-radius: 0.5rem;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+.menu {
+  height: auto;
+  padding: 0 2.4rem;
+}
+
+.menu:first-child {
+  height: 2.9rem;
+  line-height: 2.9rem;
+
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #181818;
+  transition: height 1s ease-in-out;
+}
+
+ul {
+  padding: 0;
+}
+
+.menu:hover {
+  height: 14.5rem;
+}

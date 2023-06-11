@@ -1,6 +1,8 @@
 # 메뉴 드롭다운하기
 
-<img src="./3%EC%B0%A8%EA%B3%BC%EC%A0%9C.gif">
+<p align="center"><img src="./3%EC%B0%A8%EA%B3%BC%EC%A0%9C.gif"></p>
+
+https://jay0425.github.io/home-work/mission-03/transition
 
 <br>
 

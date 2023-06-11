@@ -26,7 +26,7 @@ a {
   background: linear-gradient(180deg, #ccc 0%, #eee 100%);
 
   width: 19rem;
-  height: 19.6rem;
+  height: 18.5rem;
   border: 1px solid #a3a3a3;
   border-radius: 5px;
 }
@@ -62,25 +62,22 @@ main {
 }
 
 .menu {
-  height: auto;
+  height: 2.9rem;
   padding: 0 2.4rem;
+  line-height: 2.9rem;
 }
 
-.menu:first-child {
-  height: 2.9rem;
-  line-height: 2.9rem;
-
+.menu a {
   font-weight: 400;
   font-size: 14px;
 
   color: #181818;
+}
+
+.menu:first-child {
   transition: height 1s ease-in-out;
 }
 
-ul {
-  padding: 0;
-}
-
 .menu:hover {
-  height: 14.5rem;
+  height: 15rem;
 }

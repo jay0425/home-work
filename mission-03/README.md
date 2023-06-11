@@ -1,6 +1,6 @@
 # 메뉴 드롭다운하기
 
-<p align="center"><img src="./3%EC%B0%A8%EA%B3%BC%EC%A0%9C.gif"></p>
+<p align="center"><img src="./3차과제이미지.gif" width="400" height="400"></p>
 
 https://jay0425.github.io/home-work/mission-03/transition
 
@@ -66,12 +66,6 @@ main {
 
 ```css
 .menu:first-child {
-  height: 2.9rem;
-  line-height: 2.9rem;
-  font-weight: 400;
-  font-size: 14px;
-  color: #181818;
-
   transition: height 1s ease-in-out;
 }
 ```
@@ -84,7 +78,7 @@ main {
 
 ```css
 .menu:hover {
-  height: 14.5rem;
+  height: 15rem;
 }
 ```
 

@@ -16,7 +16,7 @@ https://jay0425.github.io/home-work/mission-04/grid
 <div class="divider"></div>
 ```
 
-- 새소식, 더보기, 줄을 위한 div를 작성했습니다.
+- 새소식, 더보기, 구분선을 위한 div를 작성했습니다.
 
 ```html
 <figure class="img-wrapper">

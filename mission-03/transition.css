@@ -75,9 +75,10 @@ main {
 }
 
 .menu:first-child {
-  transition: height 1s ease-in-out;
+  transition: height 1s ease-in-out, padding-top 1s, 1s;
 }
 
 .menu:hover {
   height: 15rem;
+  padding: 10px 0px;
 }

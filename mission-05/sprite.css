@@ -1,0 +1,122 @@
+/* 공통사항 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* 컨테이너 */
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 190px;
+  height: 147px;
+
+  background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+
+  padding: 12px;
+}
+
+/* 탑 */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular {
+  font-weight: 700;
+  font-size: 15px;
+  color: #181818;
+}
+
+.site {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ed552f;
+
+  margin-left: 5px;
+}
+
+.top a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.cross {
+  font-size: 16px;
+  color: #447231;
+  margin-right: 4px;
+}
+
+/* 바텀 */
+
+.popular-sites {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.popular-site {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8.5px;
+}
+
+.popular-site a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 11px;
+  color: #000000;
+}
+
+.popular-site a::before {
+  content: attr(data-tooltip);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  background: #a3a3a3;
+  border-radius: 5px;
+  color: white;
+  margin-right: 4px;
+}
+
+/* sprite */
+
+.sprite {
+  background: url(./rank.png) no-repeat;
+  padding-left: 0.5rem;
+  height: 1rem;
+}
+
+.sprite1 {
+  background-position: 0 0;
+}
+
+.sprite2 {
+  background-position: 0 -45px;
+}
+
+.sprite3 {
+  background-position: 0 -22.5px;
+}
+
+.sprite4 {
+  background-position: 0 0;
+}
